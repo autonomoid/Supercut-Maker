@@ -1,8 +1,6 @@
 import requests
 import json
 
-# docker run -p 80:80 -v C:/Users/auton/OneDrive/Documents/PycharmProjects/gcp-setup/credentials/cloud-racer-service-account-key.json:/app/service-account-key.json -e GOOGLE_APPLICATION_CREDENTIALS=/app/service-account-key.json video-supercut
-
 # Define the URL of the microservice
 url = 'http://127.0.0.1/supercut'
 
